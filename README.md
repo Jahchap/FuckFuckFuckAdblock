@@ -1,8 +1,8 @@
-This is a fork of FuckAdblock that fixes a bug, since the original repo is readOnly now.
+This is a fork of FuckFuckAdblock that fixes a bug, since the original repo is readOnly now.
 
-Our site uses Rollbar to track Javascript issues, and evidently installling the `FuckAdBlock` script in Microsoft edge generates thousands of errors every page load.  This version of the script should at least catch that error and avoid spamming us with unhandled exceptions.
+Our site uses Rollbar to track Javascript issues, and evidently installling the `FuckFuckAdBlock` script in Microsoft edge generates thousands of errors every page load.  This version of the script should at least catch that error and avoid spamming us with unhandled exceptions.
 
-I haven't tested this script, because fuck Microsoft Edge.  I get the feeling that FuckAdBlock will never work at all in Edge, so why does this user even have it?
+I haven't tested this script, because fuck Microsoft Edge.  I get the feeling that FuckFuckAdBlock will never work at all in Edge, so why does this user even have it?
 
 
 FuckFuckAdblock
