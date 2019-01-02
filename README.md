@@ -1,8 +1,8 @@
 This is a fork of FuckFuckAdblock that fixes a bug, since the original repo is readOnly now.
 
-Our site doesn't even use FuckAdBlock, bit it does use Rollbar to track Javascript issues.  Evidently installling the `FuckFuckAdBlock` script in Microsoft Edge throws an exception when it tries to overwrite the nonexistent `window.fuckAdBlock` property.  This version of the script should at least catch that error and avoid spamming us with unhandled exceptions.
+Our site doesn't even use FuckAdBlock, but it does use Rollbar to track and alert us about unhandled Javascript exceptions.  Evidently installling the `FuckFuckAdBlock` script in Microsoft Edge throws an exception when it tries to overwrite the nonexistent `window.fuckAdBlock` property on any page that *doesn't* use `FuckAdBlock`.  This version of the script should at least catch that error and avoid spamming us with unhandled exceptions.
 
-I haven't tested this script, because fuck Microsoft Edge.  But it should work in theory.
+I haven't tested this, because fuck Microsoft Edge.  But it should work in theory.
 
 
 FuckFuckAdblock
